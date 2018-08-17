@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Order Randomizer</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="draft.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h1 style="align-content:center">Draft Order Randomizer</h1>
+    Select number of players: <input type="number" name="quantity" id="quantity" min="2" max="16" step="2" value="8" />&nbsp
+    <button type="button" class="btn btn-primary" id="subNum" onclick="getNumber()">Set Number of Players</button>
+    <div id="check"></div>
+    <form class="form-group" id="names" style="padding:5px"></form>
+    <div id="check2"></div>
+    <script src="draftOrder.js" type="text/javascript"></script>
+</body>
+</html>
